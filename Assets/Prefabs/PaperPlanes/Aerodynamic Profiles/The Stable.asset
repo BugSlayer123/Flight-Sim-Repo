@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f3359a4bded458bb94532e0641e1ae3, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a8a38c9ebe02494cb4c4c315c2da1ee, type: 3}
   m_Name: The Stable
   m_EditorClassIdentifier: 
-  torque: 700
-  reverse: 50
-  thrust: 55000
-  speed: 45
-  yaw: 90
+  torque: 900
+  reverse: 30
+  thrust: 60000
+  speed: 5
+  yaw: 100

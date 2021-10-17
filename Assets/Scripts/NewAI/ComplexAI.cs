@@ -99,6 +99,7 @@ namespace FlightSim.AI
         NodeState FireWeapon()
         {
             Debug.Log("Pow!");
+            GetComponent<AIShoot>().shoot();
             return NodeState.SUCCESS;
         }
 

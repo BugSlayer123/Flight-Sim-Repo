@@ -76,7 +76,7 @@ namespace FlightSim
         void ApplyBrakeInput(bool brake)
         {
             Vector3 opposite = -rb.velocity;
-            int brakePower = 100;
+            int brakePower = 500;
             Vector3 brakeForce = opposite.normalized * brakePower;
 
             if (brake)

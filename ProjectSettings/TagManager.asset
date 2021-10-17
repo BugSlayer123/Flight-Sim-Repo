@@ -13,6 +13,8 @@ TagManager:
   - Destructible
   - Tile
   - Breadcrumb
+  - Terrain
+  - plane
   layers:
   - Default
   - TransparentFX

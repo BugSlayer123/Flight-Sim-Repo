@@ -3295,6 +3295,10 @@ PrefabInstance:
       propertyPath: squadron
       value: 
       objectReference: {fileID: 11400000, guid: c19ed9556d0644d439bf166991ceb167, type: 2}
+    - target: {fileID: 3858048259960913185, guid: bcc125349d690b446b3eb4eb5c570106, type: 3}
+      propertyPath: aerodynamicProperties
+      value: 
+      objectReference: {fileID: 11400000, guid: 566ef7ff626a23b45b07a62249158490, type: 2}
     - target: {fileID: 7335671376384868960, guid: bcc125349d690b446b3eb4eb5c570106, type: 3}
       propertyPath: m_Name
       value: The Sea Glider (2)
@@ -3591,6 +3595,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e9374469e886d8649b6b92c468834057, type: 3}
   m_PrefabInstance: {fileID: 439144567}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &445780161
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 257
+  m_Height: 257
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 2
+  m_ColorFormat: 4
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 1
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &446381910
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5603,6 +5643,10 @@ PrefabInstance:
       propertyPath: squadron
       value: 
       objectReference: {fileID: 11400000, guid: c19ed9556d0644d439bf166991ceb167, type: 2}
+    - target: {fileID: 3858048259960913185, guid: bcc125349d690b446b3eb4eb5c570106, type: 3}
+      propertyPath: aerodynamicProperties
+      value: 
+      objectReference: {fileID: 11400000, guid: 566ef7ff626a23b45b07a62249158490, type: 2}
     - target: {fileID: 7335671376384868960, guid: bcc125349d690b446b3eb4eb5c570106, type: 3}
       propertyPath: m_Name
       value: The Sea Glider (1)
@@ -7160,6 +7204,10 @@ PrefabInstance:
       propertyPath: squadron
       value: 
       objectReference: {fileID: 11400000, guid: c19ed9556d0644d439bf166991ceb167, type: 2}
+    - target: {fileID: 3858048259960913185, guid: bcc125349d690b446b3eb4eb5c570106, type: 3}
+      propertyPath: aerodynamicProperties
+      value: 
+      objectReference: {fileID: 11400000, guid: 566ef7ff626a23b45b07a62249158490, type: 2}
     - target: {fileID: 7335671376384868960, guid: bcc125349d690b446b3eb4eb5c570106, type: 3}
       propertyPath: m_Name
       value: The Sea Glider
@@ -9795,15 +9843,15 @@ PrefabInstance:
       objectReference: {fileID: 1771735389}
     - target: {fileID: 224272011748467218, guid: 5dae165fffa5db54e9fa508584cc15c6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2281.103
+      value: 3129.767
       objectReference: {fileID: 0}
     - target: {fileID: 224272011748467218, guid: 5dae165fffa5db54e9fa508584cc15c6, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 79.50797
+      value: 136.63918
       objectReference: {fileID: 0}
     - target: {fileID: 224272011748467218, guid: 5dae165fffa5db54e9fa508584cc15c6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 166.1424
+      value: 286.09003
       objectReference: {fileID: 0}
     - target: {fileID: 224307216576612666, guid: 5dae165fffa5db54e9fa508584cc15c6, type: 3}
       propertyPath: m_Pivot.x
@@ -9891,15 +9939,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224523898247063538, guid: 5dae165fffa5db54e9fa508584cc15c6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1724.3688
+      value: 2365.9048
       objectReference: {fileID: 0}
     - target: {fileID: 224523898247063538, guid: 5dae165fffa5db54e9fa508584cc15c6, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 64.547585
+      value: 110.97522
       objectReference: {fileID: 0}
     - target: {fileID: 224523898247063538, guid: 5dae165fffa5db54e9fa508584cc15c6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 219.82982
+      value: 378.29922
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dae165fffa5db54e9fa508584cc15c6, type: 3}
@@ -10168,6 +10216,10 @@ PrefabInstance:
       propertyPath: squadron
       value: 
       objectReference: {fileID: 11400000, guid: c19ed9556d0644d439bf166991ceb167, type: 2}
+    - target: {fileID: 3858048259960913185, guid: bcc125349d690b446b3eb4eb5c570106, type: 3}
+      propertyPath: aerodynamicProperties
+      value: 
+      objectReference: {fileID: 11400000, guid: 566ef7ff626a23b45b07a62249158490, type: 2}
     - target: {fileID: 7335671376384868960, guid: bcc125349d690b446b3eb4eb5c570106, type: 3}
       propertyPath: m_Name
       value: The Sea Glider (5)
@@ -10654,6 +10706,10 @@ PrefabInstance:
       propertyPath: squadron
       value: 
       objectReference: {fileID: 11400000, guid: c19ed9556d0644d439bf166991ceb167, type: 2}
+    - target: {fileID: 3858048259960913185, guid: bcc125349d690b446b3eb4eb5c570106, type: 3}
+      propertyPath: aerodynamicProperties
+      value: 
+      objectReference: {fileID: 11400000, guid: 566ef7ff626a23b45b07a62249158490, type: 2}
     - target: {fileID: 7335671376384868960, guid: bcc125349d690b446b3eb4eb5c570106, type: 3}
       propertyPath: m_Name
       value: The Sea Glider (3)
@@ -14123,42 +14179,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4457848601906800, guid: f661498175107c749a33d97304c423eb, type: 3}
   m_PrefabInstance: {fileID: 1717010816}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1723249939
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 257
-  m_Height: 257
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthFormat: 2
-  m_ColorFormat: 4
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 1
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1732009043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14737,7 +14757,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771735387}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a23b14bb2ddf403db53faea86101693f, type: 3}
   m_Name: 
@@ -14763,6 +14783,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f814153ff9d4d894eb20db510fe0def6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1771735395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771735387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba9f04bed283d2a43886722383004250, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1772734479 stripped
@@ -14915,15 +14947,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 478136, guid: 98e2b8a7d6de642f8ae08a3cbb957b7a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -153.05878
+      value: -264.72192
       objectReference: {fileID: 0}
     - target: {fileID: 478136, guid: 98e2b8a7d6de642f8ae08a3cbb957b7a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 359.71506
+      value: 437.7274
       objectReference: {fileID: 0}
     - target: {fileID: 478136, guid: 98e2b8a7d6de642f8ae08a3cbb957b7a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1129.6492
+      value: 1523.1372
       objectReference: {fileID: 0}
     - target: {fileID: 478136, guid: 98e2b8a7d6de642f8ae08a3cbb957b7a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14948,7 +14980,7 @@ PrefabInstance:
     - target: {fileID: 2057960, guid: 98e2b8a7d6de642f8ae08a3cbb957b7a, type: 3}
       propertyPath: m_TargetTexture
       value: 
-      objectReference: {fileID: 1723249939}
+      objectReference: {fileID: 445780161}
     - target: {fileID: 2057960, guid: 98e2b8a7d6de642f8ae08a3cbb957b7a, type: 3}
       propertyPath: orthographic size
       value: 500
@@ -15063,11 +15095,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22409240, guid: 98e2b8a7d6de642f8ae08a3cbb957b7a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.000025431313
+      value: -0.000050862625
       objectReference: {fileID: 0}
     - target: {fileID: 22409240, guid: 98e2b8a7d6de642f8ae08a3cbb957b7a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0000003179141
+      value: -0.000015576656
       objectReference: {fileID: 0}
     - target: {fileID: 22414296, guid: 98e2b8a7d6de642f8ae08a3cbb957b7a, type: 3}
       propertyPath: m_Pivot.x
@@ -15266,6 +15298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: The BasicPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 5372567712528226762, guid: 06ad2ed4e253fa64ca85c5cda8e2c61a, type: 3}
+      propertyPath: aerodynamicProperties
+      value: 
+      objectReference: {fileID: 11400000, guid: 566ef7ff626a23b45b07a62249158490, type: 2}
     m_RemovedComponents:
     - {fileID: 215024941375049680, guid: 06ad2ed4e253fa64ca85c5cda8e2c61a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 06ad2ed4e253fa64ca85c5cda8e2c61a, type: 3}
@@ -16865,6 +16901,10 @@ PrefabInstance:
       propertyPath: squadron
       value: 
       objectReference: {fileID: 11400000, guid: c19ed9556d0644d439bf166991ceb167, type: 2}
+    - target: {fileID: 3858048259960913185, guid: bcc125349d690b446b3eb4eb5c570106, type: 3}
+      propertyPath: aerodynamicProperties
+      value: 
+      objectReference: {fileID: 11400000, guid: 566ef7ff626a23b45b07a62249158490, type: 2}
     - target: {fileID: 7335671376384868960, guid: bcc125349d690b446b3eb4eb5c570106, type: 3}
       propertyPath: m_Name
       value: The Sea Glider (4)

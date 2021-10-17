@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Game Scene 1 Day.unity
+- path: Assets/Scenes/Game Scene 3 Night Versus HF Squadron.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
