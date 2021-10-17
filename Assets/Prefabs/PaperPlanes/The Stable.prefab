@@ -2850,6 +2850,7 @@ GameObject:
   - component: {fileID: 8745314993971411309}
   - component: {fileID: 1463059742809221198}
   - component: {fileID: 7043499501275850551}
+  - component: {fileID: 8855052063263912722}
   m_Layer: 0
   m_Name: The Stable
   m_TagString: Player
@@ -2936,6 +2937,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   squadron: {fileID: 0}
   rank: 0
+  specialRank: {fileID: 11400000, guid: e2bc2c50b1c721b4da40c05af3aa39bb, type: 2}
+--- !u!114 &8855052063263912722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2961848568831493677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f5f79c9363493c93bd1474ad4c3b42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2961848569068959608
 GameObject:
   m_ObjectHideFlags: 0

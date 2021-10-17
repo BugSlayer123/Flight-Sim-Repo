@@ -57,7 +57,9 @@ namespace FlightSim.AI
             PaperPlane target;
             
             target = PaperPlane.AllPlanes
-                .FindAll(p => p.Squadron != plane.Squadron)
+                .FindAll(p => p.Squadron != plane.Squadron 
+                              && !plane.Squadron.FriendlySquadrons.Contains(p.Squadron)
+                              && !p.Squadron.FriendlySquadrons.Contains(plane.Squadron))
                 .FindClosest(plane.transform.position);
 
             if (target == null || !boundary.IsInsideBoundary(target.transform.position)) return NodeState.FAILURE;

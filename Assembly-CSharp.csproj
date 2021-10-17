@@ -142,7 +142,6 @@
     <Compile Include="Assets\Scripts\UI Controller Scripts\UIControllerSpecter.cs" />
     <Compile Include="Assets\NastyWizard_Depth\Demo\PostProcessing\Runtime\Components\GrainComponent.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
-    <Compile Include="Assets\Scripts\Flight Controllers\FlightControl.cs" />
     <Compile Include="Assets\Scripts\Flight Controllers\AIController.cs" />
     <Compile Include="Assets\Scripts\Ai Scripts\AIBehavior\Extras\PlayMakerActions\SetCurrentStateByIndex.cs" />
     <Compile Include="Assets\Scripts\Experimental\PlayerGroundRespawn.cs" />
@@ -269,6 +268,13 @@
     <Compile Include="Assets\Scripts\UI Controller Scripts\Target Object Scripts\TargetObjectSpecter.cs" />
     <Compile Include="Assets\Scripts\Ai Scripts\AIBehavior\AIBehaviorDemoScene\Scripts\GameManager.cs" />
     <Compile Include="Assets\NastyWizard_Depth\Demo\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Scripts\NewUI\UIManager.cs" />
+    <Compile Include="Assets\Scripts\NewUI\IndicatorImage.cs" />
+    <Compile Include="Assets\Scripts\Flight Controllers\FlightControl.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\SpecialRank.cs" />
+    <Compile Include="Assets\Scripts\UI Controller Scripts\HUD Scripts\Speedometer.cs" />
+    <Compile Include="Assets\Scripts\NewUI\UIIndicator.cs" />
+    <Compile Include="Assets\SimpleWings\Demo\Scripts\WorldManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

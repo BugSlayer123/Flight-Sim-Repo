@@ -5,20 +5,20 @@ namespace FlightSim
     [RequireComponent(typeof(FlightControl), typeof(IController), typeof(Rigidbody))]
     public class PaperPlane : MonoBehaviour
     {
-        [SerializeField] Squadron squadron;
         public Squadron Squadron => squadron;
-        
-        [SerializeField] int rank;
+        [SerializeField] Squadron squadron;
         public int Rank => rank;
+        [SerializeField] int rank;
+        public SpecialRank SpecialRank => specialRank;
+        [SerializeField] SpecialRank specialRank;
 
-        FlightControl flightControl;
         public FlightControl FlightControl => flightControl;
-
-        IController iController;
+        FlightControl flightControl;
         public IController IController => iController;
-
-        Rigidbody rigidbody;
+        IController iController;
         public Rigidbody Rigidbody => rigidbody;
+        Rigidbody rigidbody;
+        
 
         void Awake()
         {

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486d52dff9384ce082ac4ab32710ead9, type: 3}
+  m_Name: Ember
+  m_EditorClassIdentifier: 
+  title: Ember
+  targetIndicator: {fileID: 21300000, guid: 2f53b2f03eebd914696544f0d4117d81, type: 3}
+  offScreenTargetIndicator: {fileID: 21300000, guid: 82febcb779c6cb141a93253c67d9b9aa, type: 3}
+  indicatorMaterial: {fileID: 2100000, guid: c2b6d89793f7f774ca8040eb59feb250, type: 2}

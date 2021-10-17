@@ -8,20 +8,24 @@ public class AirplaneGUI : MonoBehaviour
 
     public Rect positionSPEED = new Rect(10, 40, 300, 20);
     public Rect positionTHROTTLE = new Rect(10, 60, 300, 20);
-	public Rect positionGLOAD = new Rect(10, 80, 300, 20);
+    public Rect positionALTITUDE = new Rect(10, 80, 300, 20);
+	public Rect positionGLOAD = new Rect(10, 100, 300, 20);
 	public Rect positionBox1 = new Rect(10, 40, 300, 20);
 	public Rect positionBox2 = new Rect(10, 60, 300, 20);
-	public Rect positionBox3 = new Rect(10, 80, 300, 20);
+    public Rect positionBox3 = new Rect(10, 80, 300, 20);
+	public Rect positionBox4 = new Rect(10, 80, 300, 20);
 	public GUISkin skin = null;
 	public Texture BoxTexture;
 
 	public Rigidbody Rigidbody { get; internal set; }
-    private float throttle = 1.0f;
+	private WorldManager world = null;
+	private float throttle = 1.21f;
 
 
 	private void Awake()
 	{
 		Rigidbody = GetComponent<Rigidbody>();
+		world = GameObject.FindObjectOfType<WorldManager>();
 	}
 
 	private float CalculatePitchG()
@@ -55,10 +59,12 @@ public class AirplaneGUI : MonoBehaviour
 		const float msToKnots = 1.94384f;
 		GUI.skin = skin;
 		GUI.Label(positionSPEED, string.Format("SPEED: {0:0.0} KTS", Rigidbody.velocity.magnitude * msToKnots));
-		GUI.Label(positionTHROTTLE, string.Format("THROTTLE: {0:0.0}%", Rigidbody.velocity * throttle));
+		GUI.Label(positionTHROTTLE, string.Format("THROTTLE: {0:0}%", Rigidbody.velocity.magnitude * throttle));
         GUI.Label(positionGLOAD, string.Format("G LOAD: {0:0.0} G", CalculatePitchG()));
+		GUI.Label(positionALTITUDE, string.Format("ALTITUDE: {0:0} FT", Mathf.Abs(world.transform.position.x - Rigidbody.position.y) * 1.0f));
 		GUI.Box(positionBox1, BoxTexture);
 		GUI.Box(positionBox2, BoxTexture);
-		GUI.Box(positionBox3, BoxTexture);
+        GUI.Box(positionBox3, BoxTexture);
+		GUI.Box(positionBox4, BoxTexture);
 	}
 }

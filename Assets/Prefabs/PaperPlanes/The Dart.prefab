@@ -6101,6 +6101,7 @@ GameObject:
   - component: {fileID: 3009392929683911282}
   - component: {fileID: 163827130562103515}
   - component: {fileID: 7435848651270250432}
+  - component: {fileID: -3401200783690735003}
   m_Layer: 0
   m_Name: The Dart
   m_TagString: Player
@@ -6187,3 +6188,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   squadron: {fileID: 0}
   rank: 0
+  specialRank: {fileID: 11400000, guid: e2bc2c50b1c721b4da40c05af3aa39bb, type: 2}
+--- !u!114 &-3401200783690735003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756267471889157426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f5f79c9363493c93bd1474ad4c3b42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 496ab6afe56f4e7bbd24b308cae952af, type: 3}
   m_Name: TestSquadron
   m_EditorClassIdentifier: 
-  name: Ally
+  squadronName: 
+  friendlySquadrons:
+  - {fileID: 11400000, guid: 143717b01cb847b499ded3f4a6d05ab9, type: 2}

@@ -8527,6 +8527,7 @@ GameObject:
   - component: {fileID: 3172941425280260943}
   - component: {fileID: -1104553150318510219}
   - component: {fileID: 1145228065230817966}
+  - component: {fileID: 4105647647442475223}
   m_Layer: 0
   m_Name: Hunting Flight
   m_TagString: Enemy3
@@ -8616,6 +8617,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   squadron: {fileID: 0}
   rank: 0
+  specialRank: {fileID: 11400000, guid: e2bc2c50b1c721b4da40c05af3aa39bb, type: 2}
+--- !u!114 &4105647647442475223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8957533601513137167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f5f79c9363493c93bd1474ad4c3b42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9004928965923248976
 GameObject:
   m_ObjectHideFlags: 0

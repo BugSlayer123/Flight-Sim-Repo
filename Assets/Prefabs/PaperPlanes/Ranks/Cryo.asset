@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486d52dff9384ce082ac4ab32710ead9, type: 3}
+  m_Name: Cryo
+  m_EditorClassIdentifier: 
+  title: Cryo
+  targetIndicator: {fileID: 21300000, guid: 82a8a82a43905e24a84ddf82a960edb5, type: 3}
+  offScreenTargetIndicator: {fileID: 21300000, guid: 82febcb779c6cb141a93253c67d9b9aa, type: 3}
+  indicatorMaterial: {fileID: 0}

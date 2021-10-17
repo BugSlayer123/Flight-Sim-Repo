@@ -836,29 +836,41 @@ MonoBehaviour:
     y: 60
     width: 300
     height: 20
-  positionGLOAD:
+  positionALTITUDE:
     serializedVersion: 2
     x: 30
     y: 80
+    width: 300
+    height: 20
+  positionGLOAD:
+    serializedVersion: 2
+    x: 30
+    y: 100
     width: 300
     height: 20
   positionBox1:
     serializedVersion: 2
     x: 23
     y: 40
-    width: 210
+    width: 180
     height: 22
   positionBox2:
     serializedVersion: 2
     x: 23
     y: 60
-    width: 210
+    width: 180
     height: 22
   positionBox3:
     serializedVersion: 2
     x: 23
     y: 80
-    width: 210
+    width: 180
+    height: 22
+  positionBox4:
+    serializedVersion: 2
+    x: 23
+    y: 100
+    width: 180
     height: 22
   skin: {fileID: 11400000, guid: 6f4947fa66a4223468c0f830b599abc6, type: 2}
   BoxTexture: {fileID: 0}
